@@ -1,0 +1,25 @@
+.nav-item-flex {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center items within each flex item if needed */
+  }
+  
+  .me-2{
+    border-radius: 9%;
+    width: 120%;
+  }
+
+  footer {
+    margin-top: auto; /* pushes the footer to the bottom */
+    text-align: center; /* centers the text inside the footer */
+    padding: 1rem 0; /* adds some padding inside the footer */
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* centers the text inside the footer */
+    padding: 1rem 0; /* adds some padding inside the footer */
+  }
+ 
