@@ -1,8 +1,12 @@
 
+/* .............Home Banner styling.......... */
+
+
 
 .carousel-item img {
     min-height: 50vh;
     max-height: 70vh;
+    width: auto;
 }
 h5{
     color: crimson;
@@ -21,4 +25,27 @@ h5{
     padding-top: 3px;
     /* background-color: rgba(227, 232, 128, 0.842); */
 
+}
+
+
+/* ................Home Mens Product List styling.................... */
+
+
+
+.HomePageMensList{
+    margin: 3%;
+    height: 42vh;
+    /* background-color: red; */
+    max-height: 20%;
+}
+
+.Homeproductcontainer_img{
+    max-height: 80%;
+    padding: 1%;
+}
+.name-price{
+    margin-left: 1%;
+    width: fit-content;
+    max-height: 19%;
+    
 }

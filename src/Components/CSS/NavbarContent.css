@@ -15,11 +15,23 @@
     padding: 1rem 0; /* adds some padding inside the footer */
   }
   footer {
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center; /* centers the text inside the footer */
     padding: 1rem 0; /* adds some padding inside the footer */
   }
+ 
+  .me-2{
+    /* width: 60rem; */
+    max-width: 555px;
+    min-width: fit-content;
+  }
+  .navSearchbtn{
+    background-color: transparent;
+    color: black;
+  }
+  
+
  

@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import './CSS/HomeBanner.css'
-import Homebanner1 from '../assets/Image/HomeBanner1.JPG'
-import Homebanner2 from '../assets/Image/HomeBanner2.png'
-import Homebanner3 from '../assets/Image/HomeBanner3.JPG'
+import '../CSS/Home.css'
+import Homebanner1 from '../../assets/Image/HomeBanner1.JPG'
+import Homebanner2 from '../../assets/Image/HomeBanner2.png'
+import Homebanner3 from '../../assets/Image/HomeBanner3.JPG'
 
 
 function HomeBanner() {
