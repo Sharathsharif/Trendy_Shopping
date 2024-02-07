@@ -1,20 +1,32 @@
-import Partyshirt1 from '../../assets/Image/Mens/Mens_Party-Dress.jpg'
-import '../CSS/Home.css'
-
+import "../CSS/Home.css";
+import HomepageProductLayout from "./HomepageProductLayout";
+import { MensFormalPantList } from "../Productlists/Mens/Dress/MensFormalpantsList";
+import { MensSuitList } from "../Productlists/Mens/Dress/MensSuitList";
+import { MensAnalogWatchList } from "../Productlists/Mens/Watches/MensAnalogWatchList";
 
 export default function HomePageMensList() {
   return (
     <>
-    <br /><br /><br />
-    <h2>Hot Mens Deals !!!</h2>
-    <div className="HomePageMensList">
-      <img src={Partyshirt1} alt="Mensdress" className='Homeproductcontainer_img' />
-      <div className='name-price'>
-      <h3>Part wear shirt</h3>
-      <h4>₹ 999 only</h4>
+      <br />
+      <br />
+      <br />
+      <h2 className="HomepageHotDealstitle ">
         
+        <strong>Hot Mens Deals !!!</strong>
+      </h2>
+      <div className="Homepageproduct_container" >
+      <HomepageProductLayout {...MensFormalPantList[0]} />
+      <HomepageProductLayout {...MensFormalPantList[1]} />
+      <HomepageProductLayout {...MensSuitList[1]} />
+      <HomepageProductLayout {...MensSuitList[2]} />
+    <HomepageProductLayout {...MensAnalogWatchList[0]}/>
       </div>
-    </div>
+
+      <h2 className="HomepageHotDealstitle ">
+        
+        <strong>Hot Womens Deals !!!</strong>
+
+      </h2>
     </>
   );
 }

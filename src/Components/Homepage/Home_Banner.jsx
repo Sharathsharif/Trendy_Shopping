@@ -17,7 +17,7 @@ function HomeBanner() {
           alt="First slide"
         />
         <Carousel.Caption className='bannertext'>
-          <h5 className='shadow'>Urban Style!!!!</h5>
+          {/* <h5 className='shadow'>Urban Style!!!!</h5> */}
           {/* <p>Only Limited stocks are available..... Don't miss the Chance</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -28,7 +28,7 @@ function HomeBanner() {
           alt="Second slide"
         />
         <Carousel.Caption className='bannertext'>
-          <h5 className='shadow' >Western Style!!!!</h5>
+          {/* <h5 className='shadow' >Western Style!!!!</h5> */}
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,7 +39,7 @@ function HomeBanner() {
           alt="Third slide"
         />
         <Carousel.Caption className='bannertext'>
-          <h5 className='shadow' >Ladies Summer sale beginss!!!!</h5>
+          {/* <h5 className='shadow' >Ladies Summer sale beginss!!!!</h5> */}
           {/* <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p> */}

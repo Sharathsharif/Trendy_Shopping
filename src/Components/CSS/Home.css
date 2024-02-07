@@ -1,51 +1,77 @@
-
 /* .............Home Banner styling.......... */
 
-
-
 .carousel-item img {
-    min-height: 50vh;
-    max-height: 70vh;
-    width: auto;
+  min-height: 50vh;
+  max-height: 70vh;
+  width: auto;
 }
-h5{
-    color: crimson;
-    font-size: 200%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* border: 3px solid #0a0a0a; */
-    padding: 10px;
-    display: inline-block;
+
+h5 {
+  color: crimson;
+  font-size: 200%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* border: 3px solid #0a0a0a; */
+  padding: 10px;
+  display: inline-block;
 }
-.bannertext{
-    height: 63px;
-    width: fit-content;
-    /* text-align: center;
+
+.bannertext {
+  height: 63px;
+  width: fit-content;
+  /* text-align: center;
     align-items: center; */
-    justify-content: center;
-    padding-top: 3px;
-    /* background-color: rgba(227, 232, 128, 0.842); */
-
+  justify-content: center;
+  padding-top: 3px;
+  /* background-color: rgba(227, 232, 128, 0.842); */
 }
-
 
 /* ................Home Mens Product List styling.................... */
 
-
-
-.HomePageMensList{
-    margin: 3%;
-    height: 42vh;
-    /* background-color: red; */
-    max-height: 20%;
+.HomepageProductLayout {
+  margin: 3%;
+  height: 42vh;
+  /* background-color: red; */
+  max-height: 20%;
+  width: 20%;
+  display: inline-block;
+  border: 2px rgba(0, 0, 0, 0.219) solid;
+  padding: 2%;
+  transition: 1s;
+}
+.HomepageProductLayout:hover{
+-ms-zoom-animation: 1px;    
 }
 
-.Homeproductcontainer_img{
-    max-height: 80%;
-    padding: 1%;
+.HomepageProductLayout_img {
+  max-height: 80%;
+  padding: 1%;
 }
-.name-price{
-    margin-left: 1%;
-    width: fit-content;
-    max-height: 19%;
+
+.HomepageHotDealstitle {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;
+  color: rgb(255, 10, 10);
+  background-color: rgba(180, 181, 180, 0.204);
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+.Homepageproduct_container{
     
+    text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgb(239, 14, 14);
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgba(239, 14, 14, 0.269);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 14, 14, 0.958);
+  }
 }
